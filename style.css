@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: black;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h1{
+    color: white;
+    background-color: steelblue;
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    line-height: 1.1;
+}
+
+button{
+   border: none;
+   background-color: none;
+   text-transform: uppercase;
+   height: 100%;
+   font-weight: 700;
+   font-size: inherit;
+   color: steelblue;
+   letter-spacing: 1px;
+   transition: all 0.3s;
+
+}
+
+button:hover{
+    color: white;
+    background-color: steelblue;
+}
+.sq{
+    width: 30%;
+    padding-bottom: 30%;
+    margin: 1.66%;
+    float: left;
+    border-radius: 15%;
+    transition: background 0.3s;
+    -webkit-transition: background 0.3s;
+    -moz-transition: background 0.3s;
+}
+
+.selected{
+    background-color:steelblue;
+    color: white;
+}
+
+#colorDisplay {
+    font-size: 200%;
+}
+#container{
+    margin: 20px auto;
+    width: 600px;
+}
+
+#message{
+    display: inline-block;
+    width: 20%;
+}
+
+#strip{
+    background-color: white;
+    height: 2rem;
+    text-align: center;
+}
